@@ -15,6 +15,9 @@ Bootstrap and Bootswatch were used for the creation of the graphics in the const
 - npm start or ng serve --proxy-config proxy.conf.json, so as to rely on the proxy.conf.js which is inside the code. 
 - The site doesn't work from /dist.
 ```
+<img width="1440" alt="Schermata 2023-02-05 alle 15 14 09" src="https://user-images.githubusercontent.com/91114037/216824642-43781b7b-99f1-48f4-8815-4a94fda6567a.png">
+
+
 ## Development server
 
 Run `npm start` or `ng serve --proxy-config proxy.conf.json` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
