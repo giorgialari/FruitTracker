@@ -2,9 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
 
+This site returns the main nutritional information on each fruit. The site relies on the https://fruityvice.com/ API.
+
+Bootstrap and Bootswatch were used for the creation of the graphics in the construction of this site.
+
+```diff
+- This API has a CORS issue. To start the app you need to use the command:
+
+- `npm start` or `ng serve --proxy-config proxy.conf.json`, so as to rely on the proxy.conf.js which is inside the code. The site doesn't work from /dist.
+```
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm start` or `ng serve --proxy-config proxy.conf.json` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
