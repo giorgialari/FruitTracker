@@ -5,11 +5,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This site returns the main nutritional information on each fruit. The site relies on the https://fruityvice.com/ API.
 
 Bootstrap and Bootswatch were used for the creation of the graphics in the construction of this site.
+<img width="500" alt="Schermata 2023-02-05 alle 14 52 42" src="https://user-images.githubusercontent.com/91114037/216823494-8bab5d2c-88aa-4474-9f52-8701565b33e0.png">
+<img width="500" alt="Schermata 2023-02-05 alle 14 55 02" src="https://user-images.githubusercontent.com/91114037/216823623-2c227972-e20f-4636-9138-6806a657c5c3.png">
 
 ```diff
+
 - This API has a CORS issue. To start the app you need to use the command:
 
-- `npm start` or `ng serve --proxy-config proxy.conf.json`, so as to rely on the proxy.conf.js which is inside the code. The site doesn't work from /dist.
+- npm start or ng serve --proxy-config proxy.conf.json, so as to rely on the proxy.conf.js which is inside the code. The site doesn't work from /dist.
 ```
 ## Development server
 
@@ -22,14 +25,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
