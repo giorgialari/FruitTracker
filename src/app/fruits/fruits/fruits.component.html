@@ -1,0 +1,8 @@
+<input class="form-control me-sm-2" type="search" placeholder="Search" [(ngModel)]="searchFruits">
+
+<div>
+    <div class="card-container" *ngFor="let fruit of fruits | filter:searchFruits ">
+        <div>{{fruit.name}}</div>
+        <button type="button" class="btn btn-outline-success btn-sm" routerLink="fruit-details/{{fruit.id}}">Details</button>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+<div *ngIf="fruit" class="detailcontainer table-responsive">
+    <div class="card-container">
+        <h2>{{fruit.name}}</h2>
+        <table class="table">
+                <tr>
+                    <th scope="col">Genus</th>
+                    <td>{{fruit.genus}}</td>
+                </tr>
+                <tr>
+                    <th scope="col">Family</th>
+                    <td>{{fruit.family}}</td>
+                </tr>
+                <tr>
+                    <th scope="col">Order</th>
+                    <td>{{fruit.order}}</td>
+                </tr>
+                <tr>
+                    <th scope="col">Carbohydrates</th>
+                    <td>{{fruit.nutritions.carbohydrates}}</td>
+                </tr>
+                <tr>
+                    <th scope="col">Protein</th>
+                    <td>{{fruit.nutritions.protein}}</td>
+                </tr>
+                <tr>
+                    <th scope="col">Fat</th>
+                    <td>{{fruit.nutritions.fat}}</td>
+                </tr>
+                <tr>
+                    <th scope="col">Calories</th>
+                    <td>{{fruit.nutritions.calories}}</td>
+                </tr>
+                <tr>
+                    <th scope="col">Sugar</th>
+                    <td>{{fruit.nutritions.sugar}}</td>
+                </tr>
+        </table>
+    </div>
+</div>
