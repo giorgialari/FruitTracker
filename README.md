@@ -12,7 +12,8 @@ Bootstrap and Bootswatch were used for the creation of the graphics in the const
 
 - This API has a CORS issue. To start the app you need to use the command:
 
-- npm start or ng serve --proxy-config proxy.conf.json, so as to rely on the proxy.conf.js which is inside the code. The site doesn't work from /dist.
+- npm start or ng serve --proxy-config proxy.conf.json, so as to rely on the proxy.conf.js which is inside the code. 
+- The site doesn't work from /dist.
 ```
 ## Development server
 
